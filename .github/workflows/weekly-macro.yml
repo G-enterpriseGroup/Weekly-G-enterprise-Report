@@ -1,8 +1,11 @@
-name: Weekly G-Enterprise Macro Report
+from pathlib import Path
+
+updated_yml = """name: Weekly G-Enterprise Macro Report
 
 on:
   workflow_dispatch:
   schedule:
+    # Runs every Monday at 12:00 UTC
     - cron: "0 12 * * 1"
 
 permissions:
@@ -17,7 +20,7 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     environment:
       name: github-pages
@@ -44,16 +47,30 @@ jobs:
           OPEN_HTML_AFTER: "0"
           USE_LOCAL_LLM_REWRITER: "0"
           MPLBACKEND: Agg
+          PYTHONUNBUFFERED: "1"
         run: |
           if [ -f "scripts/weekly_macro_report.py" ]; then
-            python scripts/weekly_macro_report.py
+            python -u scripts/weekly_macro_report.py
           elif [ -f "weekly_macro_report.py" ]; then
-            python weekly_macro_report.py
+            python -u weekly_macro_report.py
           else
             echo "ERROR: Could not find weekly_macro_report.py"
             echo "Put your Python file at scripts/weekly_macro_report.py"
             exit 1
           fi
+
+      - name: Show generated website files
+        run: |
+          echo "Public files:"
+          find public -maxdepth 4 -type f | sort || echo "No public folder found"
+
+          echo ""
+          echo "Chart files:"
+          find public/charts -type f | sort || echo "No public/charts folder found"
+
+          echo ""
+          echo "Index chart references:"
+          grep -o 'charts/[^"]*\\.png' public/index.html || echo "No chart image links found in index.html"
 
       - name: Verify public folder
         run: |
@@ -61,6 +78,11 @@ jobs:
             echo "ERROR: public/index.html was not created."
             echo "Your Python script must copy the final report to public/index.html"
             exit 1
+          fi
+
+          if [ ! -d "public/charts" ]; then
+            echo "WARNING: public/charts folder was not created."
+            echo "The report may still publish, but charts may be missing."
           fi
 
       - name: Configure GitHub Pages
@@ -74,3 +96,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+"""
+
+path = Path("/mnt/data/weekly-macro-updated.yml")
+path.write_text(updated_yml, encoding="utf-8")
+path
