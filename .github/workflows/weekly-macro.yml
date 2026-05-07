@@ -1,12 +1,8 @@
-from pathlib import Path
-
-yml = """name: Weekly G-Enterprise Macro Report
+name: Weekly G-Enterprise Macro Report
 
 on:
   workflow_dispatch:
   schedule:
-    # Runs every Monday at 12:00 UTC
-    # 8:00 AM ET during daylight saving time / 7:00 AM ET during standard time
     - cron: "0 12 * * 1"
 
 permissions:
@@ -54,4 +50,27 @@ jobs:
           elif [ -f "weekly_macro_report.py" ]; then
             python weekly_macro_report.py
           else
-            echo "ERROR: Could not find weekly_macro
+            echo "ERROR: Could not find weekly_macro_report.py"
+            echo "Put your Python file at scripts/weekly_macro_report.py"
+            exit 1
+          fi
+
+      - name: Verify public folder
+        run: |
+          if [ ! -f "public/index.html" ]; then
+            echo "ERROR: public/index.html was not created."
+            echo "Your Python script must copy the final report to public/index.html"
+            exit 1
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
