@@ -1,1 +1,69 @@
+name: Deploy Local Report to GitHub Pages
 
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "public/**"
+      - ".github/workflows/weekly-macro.yml"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify public report files
+        run: |
+          echo "Public files:"
+          find public -maxdepth 4 -type f | sort
+
+          echo ""
+          echo "Chart files:"
+          find public/charts -type f -name "*.png" | sort || true
+
+          if [ ! -f "public/index.html" ]; then
+            echo "ERROR: public/index.html is missing."
+            exit 1
+          fi
+
+          if [ ! -d "public/charts" ]; then
+            echo "ERROR: public/charts folder is missing."
+            exit 1
+          fi
+
+          CHART_COUNT=$(find public/charts -type f -name "*.png" | wc -l | tr -d " ")
+          echo "Chart count: $CHART_COUNT"
+
+          if [ "$CHART_COUNT" -lt 1 ]; then
+            echo "ERROR: No chart PNG files found in public/charts."
+            exit 1
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload public folder
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
