@@ -1,1 +1,57 @@
+from pathlib import Path
 
+yml = """name: Weekly G-Enterprise Macro Report
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs every Monday at 12:00 UTC
+    # 8:00 AM ET during daylight saving time / 7:00 AM ET during standard time
+    - cron: "0 12 * * 1"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run weekly macro report
+        env:
+          GHOTRA_OUTPUT_DIR: output
+          PUBLISH_DIR: public
+          OPEN_HTML_AFTER: "0"
+          USE_LOCAL_LLM_REWRITER: "0"
+          MPLBACKEND: Agg
+        run: |
+          if [ -f "scripts/weekly_macro_report.py" ]; then
+            python scripts/weekly_macro_report.py
+          elif [ -f "weekly_macro_report.py" ]; then
+            python weekly_macro_report.py
+          else
+            echo "ERROR: Could not find weekly_macro
