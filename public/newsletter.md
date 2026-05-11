@@ -2,34 +2,34 @@
 # Weekly Macro Market Analysis
 Published Monday, May 11, 2026
 
-**Macro Read:** Defensive macro backdrop | Score -5
+**Macro Read:** Risk backdrop has turned defensive | Score -5
 **Report Logic:** v5.1 — CBOE Gamma Switchable Tabs + Current Signal Guardrails
 
 ## 1. This Week’s Setup
-- Focus on market breadth beneath the S&P 500. If leadership is narrow, the index can look stronger than the average stock actually feels.
+- Watch whether Treasury yields confirm or challenge the equity move. A sustained rise in yields can pressure long-duration growth stocks and rate-sensitive sectors.
 - Track oil and the dollar together. Oil affects inflation expectations and corporate margins, while the dollar influences global liquidity and multinational earnings translation.
+- Monitor credit spreads as a confirmation tool. Equity strength is more durable when high-yield and investment-grade spreads remain contained.
 - Keep an eye on defensive sectors. Strength in healthcare, staples, or utilities can signal that investors are rotating toward stability instead of cyclical growth.
-- Watch financials for confirmation from the yield curve and credit quality. Banks often provide an early read on liquidity, lending standards, and economic confidence.
 
 ## 2. Big Picture Macro Read
-The macro backdrop for the release week is best described as defensive macro backdrop. In practical portfolio terms, yield pressure remained a key constraint for risk assets; the VIX moved higher, which points to a less comfortable market backdrop; and lower-quality credit softened, which argues for more selectivity.
+The macro backdrop for the release week is best described as risk backdrop has turned defensive. In practical portfolio terms, yield pressure remained a key constraint for risk assets; option markets priced more uncertainty into the close of the week; and credit conditions became less forgiving.
 
-From an allocation perspective, a durable equity advance usually needs more than a higher index level. It is stronger when credit spreads are contained, volatility is declining or stable, and yields are not creating fresh valuation pressure.
+For portfolio positioning, the cleanest signal comes from cross-market confirmation. Equities can move first, but credit, volatility, the dollar, and yields help determine whether that move has institutional-quality support behind it.
 
-The S&P 500 closed the covered period at 7,398.93, changing +2.33% for the week. The index move matters, but the better read is whether macro conditions are confirming or challenging that price action.
+The equity benchmark ended the covered week at 7,398.93 after moving +2.33%. For this report, the focus is not just direction; it is the quality of the move underneath the surface.
 
 ## 3. What Shifted Last Week
-Treasury-market signals stayed central to the macro read. 10-year Treasury at 4.41% (+2 bps); 2-year Treasury at 3.92% (+4 bps); 10Y–2Y curve at 0.48% (-3 bps). The key question is whether yields are helping equity multiples or forcing investors to demand stronger earnings confirmation.
+Rates remained one of the most important inputs for equity valuation. 10-year Treasury at 4.41% (+2 bps); 2-year Treasury at 3.92% (+4 bps); 10Y–2Y curve at 0.48% (-3 bps). The rate complex affects discount rates, bank profitability, housing affordability, and the relative appeal of cash versus equities.
 
 WTI crude oil ended the week at $109.76 with a weekly move of +4.16%. Oil remains important because sustained strength can feed inflation expectations and pressure margins, while sharp weakness can signal demand concerns.
 
-Safe-haven and liquidity signals were evaluated through gold was not a primary signal and the broad U.S. dollar index at 118.39 (+0.00%). The dollar matters for global liquidity and multinational earnings, while gold can reflect real-rate pressure, inflation hedging, or defensive demand.
+The cross-asset liquidity read came through gold was not a primary signal and the broad U.S. dollar index at 118.39 (+0.00%). A stronger dollar can tighten global conditions, while gold can act as a check on confidence in real rates and inflation expectations.
 
-Credit markets provided an important confirmation layer, with high-yield spreads at 2.79% (+2 bps) and investment-grade spreads at 0.79% (-2 bps). If spreads stay contained, the market can usually absorb volatility more easily; if they widen, equity rallies become lower quality.
+The credit read matters because it reflects how investors are pricing default and liquidity risk. This week’s key credit levels were high-yield spreads at 2.79% (+2 bps) and investment-grade spreads at 0.79% (-2 bps).
 
-Initial jobless claims were 200,000 (+5.26%). Labor-market data remains central because it connects consumer strength, recession risk, wage pressure, and Federal Reserve expectations.
+Initial claims came in at 200,000 with a weekly move of +5.26%. This remains a useful early signal for household income, consumption, and the Fed’s policy path.
 
-Mortgage rates stayed relevant with the 30-year rate at 6.37% (+7 bps). This keeps housing affordability and interest-rate-sensitive consumer behavior in focus.
+Housing conditions remain linked to rates, with the 30-year mortgage rate at 6.37% (+7 bps). That makes the housing channel an important indirect read on consumer pressure.
 
 ## 4. Macro Dashboard
 | Category      | Series                         | Latest   | Weekly Change   | Current Signal (This Week)                | If This Data Goes Higher, Usually Means   |
@@ -49,32 +49,32 @@ Mortgage rates stayed relevant with the 30-year rate at 6.37% (+7 bps). This kee
 | Labor Market  | Initial Jobless Claims         | 200,000  | +5.26%          | labor weakness / more layoffs             | labor weakness                            |
 
 ## 6. Positioning & Flow — SPY and QQQ
-Data reported from report run date: May 10, 2026. This section uses CBOE delayed option-chain data for gamma, open interest, volume, call walls, put walls, and gamma flip proxies. It does not use Yahoo options data. It states what dealers could be doing; it does not claim to know a live dealer or hedge-fund book.
+Data reported from report run date: May 11, 2026. This section uses CBOE delayed option-chain data for gamma, open interest, volume, call walls, put walls, and gamma flip proxies. It does not use Yahoo options data. It states what dealers could be doing; it does not claim to know a live dealer or hedge-fund book.
 | Ticker   | Spot    | Data As Of   | 5D Return   | 20D Return   | Positioning Read                          | Net Gamma Proxy   | Gamma Flip   | Call Wall   | Put Wall   |   Put/Call OI | Dealer Could Be Doing                                                                                     | Institutional / Hedge Fund Proxy                                                       | Bid/Offer Read                                                                                  |
 |:---------|:--------|:-------------|:------------|:-------------|:------------------------------------------|:------------------|:-------------|:------------|:-----------|--------------:|:----------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------|
-| SPY      | $737.62 | 2026-05-10   | +2.35%      | +8.56%       | constructive flow / bid could be stronger | $+2.33B / 1% move | $365         | $740        | $725       |          3.36 | Dealers could be selling strength and buying weakness, which can dampen moves and support mean reversion. | CBOE OI is put-heavy; institutions/hedgers could be carrying more downside protection. | Bid is constructive, but the call wall is close; upside may need a clean break above that wall. |
-| QQQ      | $712.00 | 2026-05-10   | +5.50%      | +16.39%      | constructive flow / bid could be stronger | $+1.41B / 1% move | $310         | $710        | $690       |          1.8  | Dealers could be selling strength and buying weakness, which can dampen moves and support mean reversion. | CBOE OI is put-heavy; institutions/hedgers could be carrying more downside protection. | Bid is constructive, but the call wall is close; upside may need a clean break above that wall. |
+| SPY      | $736.58 | 2026-05-11   | +2.35%      | +8.56%       | constructive flow / bid could be stronger | $+1.33B / 1% move | $365         | $740        | $730       |          3.12 | Dealers could be selling strength and buying weakness, which can dampen moves and support mean reversion. | CBOE OI is put-heavy; institutions/hedgers could be carrying more downside protection. | Bid is constructive, but the call wall is close; upside may need a clean break above that wall. |
+| QQQ      | $709.83 | 2026-05-11   | +5.50%      | +16.39%      | constructive flow / bid could be stronger | $+0.30B / 1% move | $310         | $725        | $700       |          1.97 | Dealers could be selling strength and buying weakness, which can dampen moves and support mean reversion. | CBOE OI is put-heavy; institutions/hedgers could be carrying more downside protection. | Bid/offer read is balanced; walls are the main levels to watch.                                 |
 
 ## 7. What We Should Be Watching Next
 The next week should be evaluated through the relationship between rates, credit, volatility, oil, and market leadership. The goal is not to predict every headline; the goal is to identify which signals confirm risk appetite and which signals challenge it.
 
-- Focus on market breadth beneath the S&P 500. If leadership is narrow, the index can look stronger than the average stock actually feels.
+- Watch whether Treasury yields confirm or challenge the equity move. A sustained rise in yields can pressure long-duration growth stocks and rate-sensitive sectors.
 - Track oil and the dollar together. Oil affects inflation expectations and corporate margins, while the dollar influences global liquidity and multinational earnings translation.
+- Monitor credit spreads as a confirmation tool. Equity strength is more durable when high-yield and investment-grade spreads remain contained.
 - Keep an eye on defensive sectors. Strength in healthcare, staples, or utilities can signal that investors are rotating toward stability instead of cyclical growth.
-- Watch financials for confirmation from the yield curve and credit quality. Banks often provide an early read on liquidity, lending standards, and economic confidence.
 
 ### S&P 500 Companies to Monitor
-| Ticker   | Company          | Sector / Lens                            | Last Price   | Weekly Change   | Why Watch                                                                                                                  |
-|:---------|:-----------------|:-----------------------------------------|:-------------|:----------------|:---------------------------------------------------------------------------------------------------------------------------|
-| JPM      | JPMorgan Chase   | Banks / credit                           | $302.10      | -3.32%          | Bank bellwether for credit quality, loan demand, deposit costs, and yield-curve sensitivity.                               |
-| MSFT     | Microsoft        | Software / cloud / AI                    | $415.12      | +0.16%          | Key quality-growth bellwether tied to enterprise spending, cloud demand, AI infrastructure, and interest-rate sensitivity. |
-| XOM      | Exxon Mobil      | Energy / crude oil                       | $144.57      | -5.36%          | Direct read-through from crude oil, refining margins, and inflation-sensitive positioning.                                 |
-| GE       | GE Aerospace     | Industrials / aerospace                  | $297.15      | +3.71%          | Industrial quality bellwether tied to aerospace demand and capital spending.                                               |
-| CAT      | Caterpillar      | Industrials / global growth              | $897.45      | +0.87%          | Cyclical bellwether tied to infrastructure, commodities, construction, and global demand.                                  |
-| COST     | Costco           | Consumer staples / quality               | $1,008.79    | -0.29%          | Quality consumer read; helpful when investors are testing household resilience.                                            |
-| AVGO     | Broadcom         | Semiconductors / infrastructure software | $430.00      | +2.07%          | AI networking and infrastructure exposure; important for semiconductor breadth beyond NVIDIA.                              |
-| LOW      | Lowe’s           | Housing / consumer                       | $229.20      | -1.77%          | Confirms housing-linked consumer spending and rate-sensitive demand trends.                                                |
-| SLB      | SLB              | Oil services                             | $53.27       | -6.41%          | Useful read on energy capital spending and global drilling activity.                                                       |
-| PG       | Procter & Gamble | Consumer staples                         | $146.42      | -0.57%          | Defensive staples bellwether for margin resilience, pricing power, and risk-off rotation.                                  |
-| META     | Meta Platforms   | Digital advertising / AI                 | $609.63      | +0.14%          | Useful read on ad budgets, consumer engagement, cost control, and investor appetite for profitable growth.                 |
-| MA       | Mastercard       | Payments / consumer                      | $495.48      | +0.00%          | Confirms consumer and cross-border spending trends through payment volume.                                                 |
+| Ticker   | Company           | Sector / Lens                            | Last Price   | Weekly Change   | Why Watch                                                                                                                    |
+|:---------|:------------------|:-----------------------------------------|:-------------|:----------------|:-----------------------------------------------------------------------------------------------------------------------------|
+| MSFT     | Microsoft         | Software / cloud / AI                    | $415.12      | +0.16%          | Key quality-growth bellwether tied to enterprise spending, cloud demand, AI infrastructure, and interest-rate sensitivity.   |
+| AAPL     | Apple             | Consumer hardware / services             | $293.32      | +4.70%          | Large S&P 500 weight; useful read-through for consumer demand, China exposure, services margins, and mega-cap risk appetite. |
+| JPM      | JPMorgan Chase    | Banks / credit                           | $302.10      | -3.32%          | Bank bellwether for credit quality, loan demand, deposit costs, and yield-curve sensitivity.                                 |
+| PG       | Procter & Gamble  | Consumer staples                         | $146.42      | -0.57%          | Defensive staples bellwether for margin resilience, pricing power, and risk-off rotation.                                    |
+| NVDA     | NVIDIA            | AI semiconductors                        | $215.20      | +8.44%          | Major index leadership driver; important for AI capex sentiment, semiconductor breadth, and high-multiple growth risk.       |
+| COST     | Costco            | Consumer staples / quality               | $1,008.79    | -0.29%          | Quality consumer read; helpful when investors are testing household resilience.                                              |
+| AVGO     | Broadcom          | Semiconductors / infrastructure software | $430.00      | +2.07%          | AI networking and infrastructure exposure; important for semiconductor breadth beyond NVIDIA.                                |
+| LOW      | Lowe’s            | Housing / consumer                       | $229.20      | -1.77%          | Confirms housing-linked consumer spending and rate-sensitive demand trends.                                                  |
+| GE       | GE Aerospace      | Industrials / aerospace                  | $297.15      | +3.71%          | Industrial quality bellwether tied to aerospace demand and capital spending.                                                 |
+| JNJ      | Johnson & Johnson | Healthcare / defensive                   | $221.32      | -2.58%          | Defensive healthcare bellwether for risk-off rotation and quality demand.                                                    |
+| V        | Visa              | Payments / consumer                      | $318.79      | -2.82%          | High-quality consumer-spending signal with global transaction exposure.                                                      |
+| GOOGL    | Alphabet          | Digital advertising / AI                 | $400.80      | +3.92%          | Ad demand and AI spending help gauge corporate confidence and mega-cap breadth.                                              |
