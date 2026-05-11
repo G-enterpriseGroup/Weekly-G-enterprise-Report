@@ -1,0 +1,33 @@
+{
+  "brand": "Ghotra's Capital",
+  "week_start": "2026-05-04",
+  "week_end": "2026-05-08",
+  "release_date": "2026-05-11",
+  "date_stamp": "05.11.2026",
+  "created_at": "2026-05-10T23:05:58",
+  "output_dir": "/Users/raj/Desktop/Investment Reports/Ghotra's Capital Python Scripts/Main FRED/Ghotra_Macro_Weekly_Released_05.11.2026_v2",
+  "html_report": "/Users/raj/Desktop/Investment Reports/Ghotra's Capital Python Scripts/Main FRED/Ghotra_Macro_Weekly_Released_05.11.2026_v2/index.html",
+  "markdown_report": "/Users/raj/Desktop/Investment Reports/Ghotra's Capital Python Scripts/Main FRED/Ghotra_Macro_Weekly_Released_05.11.2026_v2/newsletter.md",
+  "dashboard_csv": "/Users/raj/Desktop/Investment Reports/Ghotra's Capital Python Scripts/Main FRED/Ghotra_Macro_Weekly_Released_05.11.2026_v2/data/macro_dashboard_05.11.2026.csv",
+  "headline_links_csv": "/Users/raj/Desktop/Investment Reports/Ghotra's Capital Python Scripts/Main FRED/Ghotra_Macro_Weekly_Released_05.11.2026_v2/data/headline_links_05.11.2026.csv",
+  "sp500_company_watchlist_csv": "/Users/raj/Desktop/Investment Reports/Ghotra's Capital Python Scripts/Main FRED/Ghotra_Macro_Weekly_Released_05.11.2026_v2/data/sp500_company_watchlist_05.11.2026.csv",
+  "spy_qqq_positioning_flow_csv": "/Users/raj/Desktop/Investment Reports/Ghotra's Capital Python Scripts/Main FRED/Ghotra_Macro_Weekly_Released_05.11.2026_v2/data/spy_qqq_positioning_flow_05.11.2026.csv",
+  "raw_cboe_positioning_csv": "/Users/raj/Desktop/Investment Reports/Ghotra's Capital Python Scripts/Main FRED/Ghotra_Macro_Weekly_Released_05.11.2026_v2/data/spy_qqq_cboe_option_chain_05.11.2026.csv",
+  "raw_fred_data_csv": "/Users/raj/Desktop/Investment Reports/Ghotra's Capital Python Scripts/Main FRED/Ghotra_Macro_Weekly_Released_05.11.2026_v2/data/raw_fred_data_05.11.2026.csv",
+  "series_used": {
+    "S&P 500": "SP500",
+    "VIX Volatility Index": "VIXCLS",
+    "10-Year Treasury Yield": "DGS10",
+    "2-Year Treasury Yield": "DGS2",
+    "10Y\u20132Y Yield Curve": "T10Y2Y",
+    "Effective Fed Funds Rate": "DFF",
+    "WTI Crude Oil": "DCOILWTICO",
+    "Broad U.S. Dollar Index": "DTWEXBGS",
+    "High Yield Credit Spread": "BAMLH0A0HYM2",
+    "Investment Grade Credit Spread": "BAMLC0A0CM",
+    "Fed Balance Sheet": "WALCL",
+    "30-Year Mortgage Rate": "MORTGAGE30US",
+    "Initial Jobless Claims": "ICSA"
+  },
+  "gdelt_headline_count": 0
+}
