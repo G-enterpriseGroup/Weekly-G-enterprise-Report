@@ -1,9 +1,4 @@
 series_name,fred_id,date,value
-S&P 500,SP500,2025-03-14,5638.94
-S&P 500,SP500,2025-03-17,5675.12
-S&P 500,SP500,2025-03-18,5614.66
-S&P 500,SP500,2025-03-19,5675.29
-S&P 500,SP500,2025-03-20,5662.89
 S&P 500,SP500,2025-03-21,5667.56
 S&P 500,SP500,2025-03-24,5767.57
 S&P 500,SP500,2025-03-25,5776.65
@@ -289,11 +284,11 @@ S&P 500,SP500,2026-05-05,7259.22
 S&P 500,SP500,2026-05-06,7365.12
 S&P 500,SP500,2026-05-07,7337.11
 S&P 500,SP500,2026-05-08,7398.93
-VIX Volatility Index,VIXCLS,2025-03-14,21.77
-VIX Volatility Index,VIXCLS,2025-03-17,20.51
-VIX Volatility Index,VIXCLS,2025-03-18,21.7
-VIX Volatility Index,VIXCLS,2025-03-19,19.9
-VIX Volatility Index,VIXCLS,2025-03-20,19.8
+S&P 500,SP500,2026-05-11,7412.84
+S&P 500,SP500,2026-05-12,7400.96
+S&P 500,SP500,2026-05-13,7444.25
+S&P 500,SP500,2026-05-14,7501.24
+S&P 500,SP500,2026-05-15,7408.5
 VIX Volatility Index,VIXCLS,2025-03-21,19.28
 VIX Volatility Index,VIXCLS,2025-03-24,17.48
 VIX Volatility Index,VIXCLS,2025-03-25,17.15
@@ -585,11 +580,12 @@ VIX Volatility Index,VIXCLS,2026-05-04,18.29
 VIX Volatility Index,VIXCLS,2026-05-05,17.38
 VIX Volatility Index,VIXCLS,2026-05-06,17.39
 VIX Volatility Index,VIXCLS,2026-05-07,17.08
-10-Year Treasury Yield,DGS10,2025-03-14,4.31
-10-Year Treasury Yield,DGS10,2025-03-17,4.31
-10-Year Treasury Yield,DGS10,2025-03-18,4.29
-10-Year Treasury Yield,DGS10,2025-03-19,4.25
-10-Year Treasury Yield,DGS10,2025-03-20,4.24
+VIX Volatility Index,VIXCLS,2026-05-08,17.19
+VIX Volatility Index,VIXCLS,2026-05-11,18.38
+VIX Volatility Index,VIXCLS,2026-05-12,17.99
+VIX Volatility Index,VIXCLS,2026-05-13,17.87
+VIX Volatility Index,VIXCLS,2026-05-14,17.26
+VIX Volatility Index,VIXCLS,2026-05-15,18.43
 10-Year Treasury Yield,DGS10,2025-03-21,4.25
 10-Year Treasury Yield,DGS10,2025-03-24,4.34
 10-Year Treasury Yield,DGS10,2025-03-25,4.31
@@ -873,11 +869,12 @@ VIX Volatility Index,VIXCLS,2026-05-07,17.08
 10-Year Treasury Yield,DGS10,2026-05-05,4.43
 10-Year Treasury Yield,DGS10,2026-05-06,4.36
 10-Year Treasury Yield,DGS10,2026-05-07,4.41
-2-Year Treasury Yield,DGS2,2025-03-14,4.02
-2-Year Treasury Yield,DGS2,2025-03-17,4.06
-2-Year Treasury Yield,DGS2,2025-03-18,4.04
-2-Year Treasury Yield,DGS2,2025-03-19,3.99
-2-Year Treasury Yield,DGS2,2025-03-20,3.95
+10-Year Treasury Yield,DGS10,2026-05-08,4.38
+10-Year Treasury Yield,DGS10,2026-05-11,4.42
+10-Year Treasury Yield,DGS10,2026-05-12,4.46
+10-Year Treasury Yield,DGS10,2026-05-13,4.46
+10-Year Treasury Yield,DGS10,2026-05-14,4.47
+10-Year Treasury Yield,DGS10,2026-05-15,4.59
 2-Year Treasury Yield,DGS2,2025-03-21,3.94
 2-Year Treasury Yield,DGS2,2025-03-24,4.04
 2-Year Treasury Yield,DGS2,2025-03-25,3.96
@@ -1161,11 +1158,12 @@ VIX Volatility Index,VIXCLS,2026-05-07,17.08
 2-Year Treasury Yield,DGS2,2026-05-05,3.93
 2-Year Treasury Yield,DGS2,2026-05-06,3.87
 2-Year Treasury Yield,DGS2,2026-05-07,3.92
-10Y–2Y Yield Curve,T10Y2Y,2025-03-14,0.29
-10Y–2Y Yield Curve,T10Y2Y,2025-03-17,0.25
-10Y–2Y Yield Curve,T10Y2Y,2025-03-18,0.25
-10Y–2Y Yield Curve,T10Y2Y,2025-03-19,0.26
-10Y–2Y Yield Curve,T10Y2Y,2025-03-20,0.29
+2-Year Treasury Yield,DGS2,2026-05-08,3.9
+2-Year Treasury Yield,DGS2,2026-05-11,3.95
+2-Year Treasury Yield,DGS2,2026-05-12,4.0
+2-Year Treasury Yield,DGS2,2026-05-13,3.98
+2-Year Treasury Yield,DGS2,2026-05-14,4.0
+2-Year Treasury Yield,DGS2,2026-05-15,4.09
 10Y–2Y Yield Curve,T10Y2Y,2025-03-21,0.31
 10Y–2Y Yield Curve,T10Y2Y,2025-03-24,0.3
 10Y–2Y Yield Curve,T10Y2Y,2025-03-25,0.35
@@ -1450,13 +1448,11 @@ VIX Volatility Index,VIXCLS,2026-05-07,17.08
 10Y–2Y Yield Curve,T10Y2Y,2026-05-06,0.49
 10Y–2Y Yield Curve,T10Y2Y,2026-05-07,0.49
 10Y–2Y Yield Curve,T10Y2Y,2026-05-08,0.48
-Effective Fed Funds Rate,DFF,2025-03-14,4.33
-Effective Fed Funds Rate,DFF,2025-03-15,4.33
-Effective Fed Funds Rate,DFF,2025-03-16,4.33
-Effective Fed Funds Rate,DFF,2025-03-17,4.33
-Effective Fed Funds Rate,DFF,2025-03-18,4.33
-Effective Fed Funds Rate,DFF,2025-03-19,4.33
-Effective Fed Funds Rate,DFF,2025-03-20,4.33
+10Y–2Y Yield Curve,T10Y2Y,2026-05-11,0.47
+10Y–2Y Yield Curve,T10Y2Y,2026-05-12,0.46
+10Y–2Y Yield Curve,T10Y2Y,2026-05-13,0.48
+10Y–2Y Yield Curve,T10Y2Y,2026-05-14,0.47
+10Y–2Y Yield Curve,T10Y2Y,2026-05-15,0.5
 Effective Fed Funds Rate,DFF,2025-03-21,4.33
 Effective Fed Funds Rate,DFF,2025-03-22,4.33
 Effective Fed Funds Rate,DFF,2025-03-23,4.33
@@ -1870,11 +1866,14 @@ Effective Fed Funds Rate,DFF,2026-05-04,3.64
 Effective Fed Funds Rate,DFF,2026-05-05,3.64
 Effective Fed Funds Rate,DFF,2026-05-06,3.64
 Effective Fed Funds Rate,DFF,2026-05-07,3.63
-WTI Crude Oil,DCOILWTICO,2025-03-14,67.43
-WTI Crude Oil,DCOILWTICO,2025-03-17,67.84
-WTI Crude Oil,DCOILWTICO,2025-03-18,67.49
-WTI Crude Oil,DCOILWTICO,2025-03-19,67.4
-WTI Crude Oil,DCOILWTICO,2025-03-20,68.55
+Effective Fed Funds Rate,DFF,2026-05-08,3.63
+Effective Fed Funds Rate,DFF,2026-05-09,3.63
+Effective Fed Funds Rate,DFF,2026-05-10,3.63
+Effective Fed Funds Rate,DFF,2026-05-11,3.63
+Effective Fed Funds Rate,DFF,2026-05-12,3.63
+Effective Fed Funds Rate,DFF,2026-05-13,3.63
+Effective Fed Funds Rate,DFF,2026-05-14,3.63
+Effective Fed Funds Rate,DFF,2026-05-15,3.63
 WTI Crude Oil,DCOILWTICO,2025-03-21,68.52
 WTI Crude Oil,DCOILWTICO,2025-03-24,69.46
 WTI Crude Oil,DCOILWTICO,2025-03-25,69.48
@@ -2154,11 +2153,11 @@ WTI Crude Oil,DCOILWTICO,2026-04-29,110.47
 WTI Crude Oil,DCOILWTICO,2026-04-30,108.64
 WTI Crude Oil,DCOILWTICO,2026-05-01,105.38
 WTI Crude Oil,DCOILWTICO,2026-05-04,109.76
-Broad U.S. Dollar Index,DTWEXBGS,2025-03-14,125.6942
-Broad U.S. Dollar Index,DTWEXBGS,2025-03-17,125.3688
-Broad U.S. Dollar Index,DTWEXBGS,2025-03-18,125.488
-Broad U.S. Dollar Index,DTWEXBGS,2025-03-19,125.8006
-Broad U.S. Dollar Index,DTWEXBGS,2025-03-20,125.985
+WTI Crude Oil,DCOILWTICO,2026-05-05,105.66
+WTI Crude Oil,DCOILWTICO,2026-05-06,98.75
+WTI Crude Oil,DCOILWTICO,2026-05-07,98.38
+WTI Crude Oil,DCOILWTICO,2026-05-08,98.87
+WTI Crude Oil,DCOILWTICO,2026-05-11,101.56
 Broad U.S. Dollar Index,DTWEXBGS,2025-03-21,126.2679
 Broad U.S. Dollar Index,DTWEXBGS,2025-03-24,126.1956
 Broad U.S. Dollar Index,DTWEXBGS,2025-03-25,126.0535
@@ -2439,11 +2438,16 @@ Broad U.S. Dollar Index,DTWEXBGS,2026-04-28,118.7717
 Broad U.S. Dollar Index,DTWEXBGS,2026-04-29,119.0975
 Broad U.S. Dollar Index,DTWEXBGS,2026-04-30,118.671
 Broad U.S. Dollar Index,DTWEXBGS,2026-05-01,118.3926
-High Yield Credit Spread,BAMLH0A0HYM2,2025-03-14,3.25
-High Yield Credit Spread,BAMLH0A0HYM2,2025-03-17,3.18
-High Yield Credit Spread,BAMLH0A0HYM2,2025-03-18,3.23
-High Yield Credit Spread,BAMLH0A0HYM2,2025-03-19,3.19
-High Yield Credit Spread,BAMLH0A0HYM2,2025-03-20,3.17
+Broad U.S. Dollar Index,DTWEXBGS,2026-05-04,118.8264
+Broad U.S. Dollar Index,DTWEXBGS,2026-05-05,118.6207
+Broad U.S. Dollar Index,DTWEXBGS,2026-05-06,118.0982
+Broad U.S. Dollar Index,DTWEXBGS,2026-05-07,118.0116
+Broad U.S. Dollar Index,DTWEXBGS,2026-05-08,118.0392
+Broad U.S. Dollar Index,DTWEXBGS,2026-05-11,118.0562
+Broad U.S. Dollar Index,DTWEXBGS,2026-05-12,118.5238
+Broad U.S. Dollar Index,DTWEXBGS,2026-05-13,118.4737
+Broad U.S. Dollar Index,DTWEXBGS,2026-05-14,118.6696
+Broad U.S. Dollar Index,DTWEXBGS,2026-05-15,119.2825
 High Yield Credit Spread,BAMLH0A0HYM2,2025-03-21,3.21
 High Yield Credit Spread,BAMLH0A0HYM2,2025-03-24,3.05
 High Yield Credit Spread,BAMLH0A0HYM2,2025-03-25,3.09
@@ -2741,11 +2745,12 @@ High Yield Credit Spread,BAMLH0A0HYM2,2026-05-04,2.78
 High Yield Credit Spread,BAMLH0A0HYM2,2026-05-05,2.77
 High Yield Credit Spread,BAMLH0A0HYM2,2026-05-06,2.75
 High Yield Credit Spread,BAMLH0A0HYM2,2026-05-07,2.79
-Investment Grade Credit Spread,BAMLC0A0CM,2025-03-14,0.94
-Investment Grade Credit Spread,BAMLC0A0CM,2025-03-17,0.93
-Investment Grade Credit Spread,BAMLC0A0CM,2025-03-18,0.93
-Investment Grade Credit Spread,BAMLC0A0CM,2025-03-19,0.91
-Investment Grade Credit Spread,BAMLC0A0CM,2025-03-20,0.91
+High Yield Credit Spread,BAMLH0A0HYM2,2026-05-08,2.81
+High Yield Credit Spread,BAMLH0A0HYM2,2026-05-11,2.79
+High Yield Credit Spread,BAMLH0A0HYM2,2026-05-12,2.82
+High Yield Credit Spread,BAMLH0A0HYM2,2026-05-13,2.82
+High Yield Credit Spread,BAMLH0A0HYM2,2026-05-14,2.76
+High Yield Credit Spread,BAMLH0A0HYM2,2026-05-15,2.8
 Investment Grade Credit Spread,BAMLC0A0CM,2025-03-21,0.92
 Investment Grade Credit Spread,BAMLC0A0CM,2025-03-24,0.9
 Investment Grade Credit Spread,BAMLC0A0CM,2025-03-25,0.9
@@ -3043,7 +3048,12 @@ Investment Grade Credit Spread,BAMLC0A0CM,2026-05-04,0.8
 Investment Grade Credit Spread,BAMLC0A0CM,2026-05-05,0.79
 Investment Grade Credit Spread,BAMLC0A0CM,2026-05-06,0.78
 Investment Grade Credit Spread,BAMLC0A0CM,2026-05-07,0.79
-Fed Balance Sheet,WALCL,2025-03-19,6755982.0
+Investment Grade Credit Spread,BAMLC0A0CM,2026-05-08,0.79
+Investment Grade Credit Spread,BAMLC0A0CM,2026-05-11,0.78
+Investment Grade Credit Spread,BAMLC0A0CM,2026-05-12,0.77
+Investment Grade Credit Spread,BAMLC0A0CM,2026-05-13,0.76
+Investment Grade Credit Spread,BAMLC0A0CM,2026-05-14,0.76
+Investment Grade Credit Spread,BAMLC0A0CM,2026-05-15,0.75
 Fed Balance Sheet,WALCL,2025-03-26,6740253.0
 Fed Balance Sheet,WALCL,2025-04-02,6723452.0
 Fed Balance Sheet,WALCL,2025-04-09,6727416.0
@@ -3103,7 +3113,7 @@ Fed Balance Sheet,WALCL,2026-04-15,6705696.0
 Fed Balance Sheet,WALCL,2026-04-22,6707419.0
 Fed Balance Sheet,WALCL,2026-04-29,6699950.0
 Fed Balance Sheet,WALCL,2026-05-06,6709505.0
-30-Year Mortgage Rate,MORTGAGE30US,2025-03-20,6.67
+Fed Balance Sheet,WALCL,2026-05-13,6728502.0
 30-Year Mortgage Rate,MORTGAGE30US,2025-03-27,6.65
 30-Year Mortgage Rate,MORTGAGE30US,2025-04-03,6.64
 30-Year Mortgage Rate,MORTGAGE30US,2025-04-10,6.62
@@ -3163,7 +3173,7 @@ Fed Balance Sheet,WALCL,2026-05-06,6709505.0
 30-Year Mortgage Rate,MORTGAGE30US,2026-04-23,6.23
 30-Year Mortgage Rate,MORTGAGE30US,2026-04-30,6.3
 30-Year Mortgage Rate,MORTGAGE30US,2026-05-07,6.37
-Initial Jobless Claims,ICSA,2025-03-15,225000.0
+30-Year Mortgage Rate,MORTGAGE30US,2026-05-14,6.36
 Initial Jobless Claims,ICSA,2025-03-22,224000.0
 Initial Jobless Claims,ICSA,2025-03-29,220000.0
 Initial Jobless Claims,ICSA,2025-04-05,223000.0
@@ -3222,4 +3232,5 @@ Initial Jobless Claims,ICSA,2026-04-04,218000.0
 Initial Jobless Claims,ICSA,2026-04-11,208000.0
 Initial Jobless Claims,ICSA,2026-04-18,215000.0
 Initial Jobless Claims,ICSA,2026-04-25,190000.0
-Initial Jobless Claims,ICSA,2026-05-02,200000.0
+Initial Jobless Claims,ICSA,2026-05-02,199000.0
+Initial Jobless Claims,ICSA,2026-05-09,211000.0
